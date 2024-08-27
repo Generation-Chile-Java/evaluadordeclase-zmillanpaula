@@ -69,6 +69,8 @@ public class Evaluador {
             System.out.println("Esta entrada es inválida");
         }
 
+        Integer promedioFinal = (calificacionLenguaje + calificacionEdFisica + calificacionMatematica)/ 3;
+        System.out.println("Tu promedio final es " + promedioFinal);
 
 
 
